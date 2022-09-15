@@ -19,4 +19,7 @@
     - JavaC
     - Debugger
     - APIs
+  - SE (standart edition)
+  - EE (enterprise edition)
+  - ME (micro edition)
 - IDE: Netbeans/Eclipse
