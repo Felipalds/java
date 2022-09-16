@@ -3,12 +3,13 @@ import java.util.Scanner;
 public class Hello {
     public static void main(String[] args) {
 
-        Scanner teclado = new Scanner(System.in);
-
-        int numero = 15;
-        String nome = "Luiz";
-
-        System.out.printf("%s tirou %d", nome, numero);
+        try (Scanner teclado = new Scanner(System.in)) {
+            System.out.println("Hello world!");
+            String nome = teclado.nextLine();
+            float nota = teclado.nextFloat();
+            System.out.printf("%s tirou %.2f", nome, nota);
+        } catch(Exception e){
+            System.out.println("Deu erro otário");
+        }
     }
-
 }
