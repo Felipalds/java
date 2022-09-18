@@ -1,3 +1,4 @@
+package beginner;
 import java.lang.Math;
 
 public class Operators {
