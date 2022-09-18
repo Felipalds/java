@@ -1,4 +1,6 @@
-# java-is-not-dead
+# Java
+![](./assets/java.ico)
+
         Repository to learn Java, software engineering and data structures.
 ## Java Environment
 - Compiler: JavaC
