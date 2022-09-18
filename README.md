@@ -1,7 +1,8 @@
 # Java
-![](./assets/java.ico)
 
         Repository to learn Java, software engineering and data structures.
+
+![](./assets/java.ico)
 ## Java Environment
 - Compiler: JavaC
 - Bytecode (.class)
